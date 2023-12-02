@@ -1,0 +1,35 @@
+.promo {
+    padding: 50px 0;
+
+    &__wrapper {
+        display: block;
+    }
+
+    &__content {
+        display: block;
+        min-width: 290px;
+    }
+
+    &__title {
+        margin: 0;
+        max-width: 220px;
+    }
+
+    &__subtitle {
+        margin: 15px 0 0 0;
+        max-width: 500px;
+    }
+
+    &__btn {
+        margin: 22px 0 0 0;
+    }
+
+    &__photo {
+        display: none;
+        position: absolute;
+    }
+
+    &__img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.nav {
+    width: 100%;
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        &_hamburger {
+            display: flex;
+            flex-direction: column;
+            // width: 100px;
+            gap: 50px;
+        }
+    }
+
+    &__list-item {
+        color: var(--title-main);
+        font-size: 20px;
+        font-weight: 400;
+
+        &_humburger {
+            font-size: 18px;
+        }
+    }
+}

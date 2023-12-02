@@ -1,0 +1,52 @@
+:root {
+    // background
+    --bg-main: #ffffff;
+    --bg-main_second: #EBEBEB;
+    --bg-footer: #4C5866;
+    
+    //text
+    --title-main: #4C5866;
+    --title-second: #666;
+
+    --text-descr: #85859B;
+
+    --text-quantity: #B5B5BD;
+    
+    //btn
+    --btnBorder-default: #7875FE;
+    --btnColor-default_bg: #ffffff;
+    --btnColor-default_text: #7875FE;
+
+    --btnBorder-hover: #7875FE;
+    --btnColor-hover_bg: #7875FE;
+    --btnColor-hover_text: #ffffff;
+
+    --btnBorder-focus: #7875FE;
+    --btnColor-focus_bg: #DAD9FB;
+    --btnColor-focus_text: #7875FE;
+
+    --btnBorder-active: #4946B4;
+    --btnColor-active_bg: #4946B4;
+    --btnColor-active_text: #ffffff;
+
+    //link
+    --link-default: #7875FE;
+    --link-default_bg: #ffffff;
+
+    --link-hover: #4946B4;
+    --link-hover_bg: #ffffff;
+
+    --link-focus: #7875FE;
+    --link-focus_bg: #DAD9FB;
+
+    --link-active: #4946B4;
+    --link-active_bg: #ffffff;
+    
+    // z-index
+    --index-elem-1: 1;   // Для наползающих элементов
+    --index-elem-2: 2;   // Для наползающих элементов
+    --index-mask: 3;     // Для масок и оверлеев
+    --index-sidebar: 4;  // Для сайдбаров
+    --index-modal: 5;    // Для модалок
+    --index-topmost: 6;  // Для перекрывающих все элементов
+}

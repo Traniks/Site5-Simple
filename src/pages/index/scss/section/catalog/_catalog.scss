@@ -1,0 +1,31 @@
+.catalog {
+    padding: 60px 0;
+
+    &__wrapper {
+        display: grid;
+        justify-items: center;
+        row-gap: 60px;
+    }
+}
+
+.product-item {
+    max-width: 350px;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__title {
+        margin: 20px 0 0 0;
+    }
+
+    &__desсr {
+        display: block;
+        margin: 4px 0 0 0;
+        color: var(--text-quantity);
+    }
+
+    &__subtitle {
+        margin: 8px 0 30px 0;
+    }
+}

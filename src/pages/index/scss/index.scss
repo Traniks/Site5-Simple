@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    position: relative;
+    min-width: 290px;
+    margin: 0 15px;
+}
+
+@import "base/mixins";
+@import "base/variables";
+@import "base/animation";
+
+@import "blocks/nav/nav";
+@import "blocks/title/title";
+@import "blocks/btn-link/btn-link";
+
+@import "blocks/header/header";
+@import "blocks/footer/footer";
+@import "blocks/modal/modal";
+
+@import "section/promo/promo";
+@import "section/progress/progress";
+@import "section/catalog/catalog";
+@import "section/sponsors/sponsors";
+@import "section/sketchbook/sketchbook";
+
+@import "media";

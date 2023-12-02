@@ -1,0 +1,26 @@
+@import "blocks/header/header-media";
+@import "blocks/footer/footer-media";
+
+@import "section/promo/promo-media";
+@import "section/progress/progress-media";
+@import "section/catalog/catalog-media";
+@import "section/sponsors/sponsors-media";
+@import "section/sketchbook/sketchbook-media";
+
+@media (min-width: 576px) {
+    .container {
+        margin: 0 33px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 39px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        margin: 0 165px;
+    }
+}

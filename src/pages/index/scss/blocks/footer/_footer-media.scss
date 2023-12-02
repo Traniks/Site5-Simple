@@ -1,0 +1,28 @@
+@media (min-width: 576px) {
+    .footer {
+        &__wrapper {
+            grid-template-rows: 80px;
+            grid-template-columns: auto auto;
+
+            justify-content: space-between;
+        }
+
+        &__wrapper-hr {
+            display: none;
+        }
+
+        &__wrapper-social {
+            ul {
+                display: grid;
+                grid-template-columns: repeat(4, 20px);
+                grid-template-rows: repeat(1, 20px);
+                column-gap: 30px;
+                list-style-type: none
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1440px) {}

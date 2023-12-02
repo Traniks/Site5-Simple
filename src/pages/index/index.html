@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="scss/index.scss">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <title>Simple</title>
+</head>
+<body>
+
+    <main>
+
+        <header class="header">
+            <div class="container">
+
+                <div class="header__wrapper">
+
+                    <a class="header__logo">
+                        <img src="icons/logo.svg" alt="simple_logo">
+                    </a>
+    
+                    <nav class="nav header__nav">
+                        <ul class="nav__list">
+                            <li class="nav__list-item">Продукция</li>
+                            <li class="nav__list-item">Материалы</li>
+                            <li class="nav__list-item">О нас</li>
+                            <li class="nav__list-item">Контакты</li>
+                        </ul>
+                        <div class="header__nav-btns">
+                            <button class="header__btn header__btn-search"><img src="icons/header/search.svg" alt="search"></button>
+
+                            <form action="#" method="POST" class="header__search-form">
+
+                                <input type="search" class="header__search-input" placeholder="Найти">
+
+                                <button class="header__btn header__search-close" type="button" aria-label="Найти на сайте">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#D1D1E5"></circle>
+                                        <path d="M5.99961 10.35L10.3496 6" stroke="#4C5866" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M10.35 10.35L6 6" stroke="#4C5866" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </button>
+
+                            </form>
+
+                            <button class="header__btn"><img src="icons/header/log-in.svg" alt="log-in"></button>
+                        </div>
+                    </nav>
+
+                    <div class="header__hr">
+                        <hr class="header__hr-item">
+                    </div>
+    
+                    <div class="header__hamburger">
+                        <img src="icons/header/hamburger.svg" alt="hamburger">
+                    </div>
+    
+                    <div class="header__btns">
+                        <button class="header__btn header__btn-search"><img src="icons/header/search.svg" alt="search"></button>
+
+                            <form id="form_1" action="#" method="POST" class="header__search-form">
+
+                                <input type="search" class="header__search-input" placeholder="Найти">
+
+                                <button class="header__btn header__search-close" type="button" aria-label="Найти на сайте">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#D1D1E5"></circle>
+                                        <path d="M5.99961 10.35L10.3496 6" stroke="#4C5866" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M10.35 10.35L6 6" stroke="#4C5866" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </button>
+
+                            </form>
+
+                        <button class="header__btn"><img src="icons/header/log-in.svg" alt="log-in"></button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </header>
+
+        <section class="promo">
+            <div class="container">
+
+                <div class="promo__wrapper">
+                    
+                    <div class="promo__content">
+                        <h1 class="title title_fz30 promo__title">Простые вещи. Из бумаги</h1>
+                        <p class="subtitle subtitle_fz14 promo__subtitle">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </p>
+                        <button class="btn promo__btn">Каталог</button>
+                    </div>
+
+                    <div class="promo__photo">
+                        <img src="img/promo/simple.png" alt="simple" class="promo__img">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="progress">
+            <div class="container">
+
+                <div class="progress__wrapper">
+
+                    <!-- 1-box -->
+                    <div class="progress__result">
+                        
+                        <div class="result-item progress__result-item">
+                            <hr class="result-item__hr">
+                            <img class="result-item__img" src="img/progress/result-v1.png" alt="result V.1">
+                            <p class="subtitle subtitle_fz16 result-item__subtitle">
+                                <span>V.1</span>
+                                Результат вашего обучения
+                            </p>
+                        </div>
+
+                        <div class="result-item progress__result-item">
+                            <hr class="result-item__hr">
+                            <img class="result-item__img" src="img/progress/result-v2.png" alt="result V.2">
+                            <p class="subtitle subtitle_fz16 result-item__subtitle">
+                                <span>V.2</span>
+                                Результат вашего обучения
+                            </p>
+                        </div>
+
+                        <div class="result-item progress__result-item">
+                            <hr class="result-item__hr">
+                            <img class="result-item__img" src="img/progress/result-v3.png" alt="result V.3">
+                            <p class="subtitle subtitle_fz16 result-item__subtitle">
+                                <span>V.3</span>
+                                Результат вашего обучения
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    <!-- 2-box -->
+                    <div class="progress__pfoto">
+                        <img class="progress__pfoto-img" src="img/progress/result-paper.png" alt="result-paper">
+                    </div>
+
+                    <!-- 3-box -->
+                    <div class="progress__desсr">
+                        <h3 class="title title_fz24 progress__desсr-title">Максимальная белизна</h3>
+                        <p class="subtitle subtitle_fz16 progress__desсr-subtitle">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.
+                        <br><br>
+                        Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+
+                <div class="catalog__wrapper">
+
+                    <!-- 1-box -->
+                    <div class="product-item catalog__wrapper-item">
+
+                        <picture>
+                            <source srcset="img/catalog/desktop/product-1-desktop.png" media="(min-width: 1440px)">
+                            <source srcset="img/catalog/tablet-690/product-1-tablet690.png" media="(min-width: 768px)">
+                            <source srcset="img/catalog/tablet-510/product-1-tablet510.png" media="(min-width: 576px)">
+                            <img class="product-item__img" src="img/catalog/mobile/product-1-mobile.png" alt="product 1">
+                        </picture>
+
+                        <h4 class="title title_fz24 product-item__title">Упаковка</h4>
+                        <span class="product-item__desсr">Тираж: от 50 штук</span>
+                        <p class="subtitle subtitle_fz16 product-item__subtitle">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
+
+                        <a class="link product-item__more" href="#">
+                            Подробнее
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+                                <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- 2-box -->
+                    <div class="product-item catalog__wrapper-item">
+
+                        <picture>
+                            <source srcset="img/catalog/desktop/product-2-desktop.png" media="(min-width: 1440px)">
+                            <source srcset="img/catalog/tablet-690/product-2-tablet690.png" media="(min-width: 768px)">
+                            <source srcset="img/catalog/tablet-510/product-2-tablet510.png" media="(min-width: 576px)">
+                            <img class="product-item__img" src="img/catalog/mobile/product-2-mobile.png" alt="product 2">
+                        </picture>
+
+                        <h4 class="title title_fz24 product-item__title">Пакеты</h4>
+                        <span class="product-item__desсr">Тираж: от 200 штук</span>
+                        <p class="subtitle subtitle_fz16 product-item__subtitle">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
+
+                        <a class="link product-item__more" href="#">
+                            Подробнее
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+                                <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- 3-box -->
+                    <div class="product-item catalog__wrapper-item">
+                        
+                        <picture>
+                            <source srcset="img/catalog/desktop/product-3-desktop.png" media="(min-width: 1440px)">
+                            <source srcset="img/catalog/tablet-690/product-3-tablet690.png" media="(min-width: 768px)">
+                            <source srcset="img/catalog/tablet-510/product-3-tablet510.png" media="(min-width: 576px)">
+                            <img class="product-item__img" src="img/catalog/mobile/product-3-mobile.png" alt="product 3">
+                        </picture>
+
+                        <h4 class="title title_fz24 product-item__title">Кейсы</h4>
+                        <span class="product-item__desсr">Тираж: от 30 штук</span>
+                        <p class="subtitle subtitle_fz16 product-item__subtitle">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
+
+                        <a class="link product-item__more" href="#">
+                            Подробнее
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+                                <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- 4-box -->
+                    <div class="product-item catalog__wrapper-item">
+
+                        <picture>
+                            <source srcset="img/catalog/desktop/product-4-desktop.png" media="(min-width: 1440px)">
+                            <source srcset="img/catalog/tablet-690/product-4-tablet690.png" media="(min-width: 768px)">
+                            <source srcset="img/catalog/tablet-510/product-4-tablet510.png" media="(min-width: 576px)">
+                            <img class="product-item__img" src="img/catalog/mobile/product-4-mobile.png" alt="product 4">
+                        </picture>
+
+                        <h4 class="title title_fz24 product-item__title">Другие изделия</h4>
+                        <span class="product-item__desсr">Тираж: от 100 штук</span>
+                        <p class="subtitle subtitle_fz16 product-item__subtitle">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
+
+                        <a class="link product-item__more" href="#">
+                            Подробнее
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+                                <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sponsors">
+            <div class="container">
+
+                <div class="sponsors__wrapper">
+
+                    <div class="sponsor sponsors__wrapper-item">
+                        <img src="img/sponsors/sponsor-1.svg" alt="sponsor 1" class="sponsor__img">
+                    </div>
+
+                    <div class="sponsor sponsors__wrapper-item">
+                        <img src="img/sponsors/sponsor-2.svg" alt="sponsor 2" class="sponsor__img">
+                    </div>
+
+                    <div class="sponsor sponsors__wrapper-item">
+                        <img src="img/sponsors/sponsor-3.svg" alt="sponsor 3" class="sponsor__img">
+                    </div>
+
+                    <div class="sponsor sponsors__wrapper-item">
+                        <img src="img/sponsors/sponsor-4.svg" alt="sponsor 4" class="sponsor__img">
+                    </div>
+
+                    <!-- repeat for normal transfer / повтор для нормально переноса -->
+
+                    <div class="sponsor sponsors__wrapper-item">
+                        <img src="img/sponsors/sponsor-1.svg" alt="sponsor 1" class="sponsor__img">
+                    </div>
+
+                    <div class="sponsor sponsors__wrapper-item">
+                        <img src="img/sponsors/sponsor-2.svg" alt="sponsor 2" class="sponsor__img">
+                    </div>
+
+                    <div class="sponsor sponsors__wrapper-item">
+                        <img src="img/sponsors/sponsor-3.svg" alt="sponsor 3" class="sponsor__img">
+                    </div>
+
+                    <div class="sponsor sponsors__wrapper-item">
+                        <img src="img/sponsors/sponsor-4.svg" alt="sponsor 4" class="sponsor__img">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sketchbook">
+            <div class="container">
+
+                <div class="sketchbook__wrapper">
+
+                    <div class="sketchbook__content">
+                        <a class="title title_fz24 sketchbook__content-title" href="#">Simple скетчбук</a>
+                        <p class="subtitle subtitle_fz16 sketchbook__content-subtitle">80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</p>
+                        <button class="btn sketchbook__content-btn">Каталог</button>
+                    </div>
+                    
+                    <picture class="sketchbook__pfoto">
+                        <source srcset="img/sketchbook/sketchbook-desktop.png" media="(min-width: 1440px)">
+                        <source srcset="img/sketchbook/sketchbook-tablet690.png" media="(min-width: 768px)">
+                        <source srcset="img/sketchbook/sketchbook-tablet510.png" media="(min-width: 576px)">
+                        <img class="sketchbook__pfoto-img" src="img/sketchbook/sketchbook-mobile.png" alt="sketchbook">
+                    </picture>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+
+                <div class="footer__wrapper">
+
+                    <a class="footer__wrapper-logo">
+                        <img src="icons/logo-white.svg" alt="simple_logo">
+                    </a>
+
+                    <hr class="footer__wrapper-hr">
+
+                    <div class="footer__wrapper-social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="icons/footer/faceboock.svg" alt="facebock">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="icons/footer/twitter.svg" alt="twitter">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="icons/footer/instagram.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="icons/footer/youtube.svg" alt="youtube">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="footer__bottom">Simple <span>®</span> 2021</div>
+        </footer>
+
+    </main>
+
+    <section class="modal">
+        
+        <a class="hamburger__logo">
+            <img src="icons/logo.svg" alt="simple_logo">
+        </a>
+
+        <div class="container">
+            <div class="hamburger-menu">
+
+                <div class="hamburger-menu__cross">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 6.75C6.94891 6.55109 7.2187 6.43934 7.5 6.43934C7.7813 6.43934 8.05109 6.55109 8.25 6.75L23.25 21.75C23.4489 21.9489 23.5606 22.2187 23.5606 22.5C23.5606 22.7813 23.4489 23.0511 23.25 23.25C23.0511 23.4489 22.7813 23.5606 22.5 23.5606C22.2187 23.5606 21.9489 23.4489 21.75 23.25L6.75 8.25C6.55109 8.05109 6.43934 7.7813 6.43934 7.5C6.43934 7.21869 6.55109 6.94891 6.75 6.75Z" fill="#4C5866"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.25 6.75C23.4489 6.94891 23.5607 7.2187 23.5607 7.5C23.5607 7.7813 23.4489 8.05109 23.25 8.25L8.25001 23.25C8.0511 23.4489 7.78132 23.5606 7.50001 23.5606C7.21871 23.5606 6.94893 23.4489 6.75002 23.25C6.55111 23.0511 6.43936 22.7813 6.43936 22.5C6.43936 22.2187 6.5511 21.9489 6.75002 21.75L21.75 6.75C21.9489 6.55109 22.2187 6.43934 22.5 6.43934C22.7813 6.43934 23.0511 6.55109 23.25 6.75Z" fill="#4C5866"/>
+                    </svg>
+                </div>
+
+                <nav class="nav hamburger-menu__navbar">
+                    <ul class="nav__list nav__list_hamburger">
+                        <li class="nav__list-item nav__list-item_hamburger">Продукция</li>
+                        <li class="nav__list-item nav__list-item_hamburger">Материалы</li>
+                        <li class="nav__list-item nav__list-item_hamburger">О нас</li>
+                        <li class="nav__list-item nav__list-item_hamburger">Контакты</li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.sponsors {
+	display: grid;
+	position: relative;
+
+	width: 100%;
+	padding: 60px 0;
+
+	overflow: hidden;
+
+	background: var(--bg-main_second);
+
+	&__wrapper {
+		display: flex;
+		gap: 20px;
+		width: calc((150px * 8) + (20px * 7));
+
+		animation: auto-scroll 7s linear infinite;
+		animation-direction: normal;
+
+		transform: translateX(calc((-150px * 4) + (-20px * 4)));
+
+		justify-content: space-between;
+
+		&:hover {
+			animation-play-state: paused;
+		}
+
+		@keyframes auto-scroll {
+			0% {
+				transform: translateX(0);
+			}
+
+			100% {
+				transform: translateX(calc((-150px * 4) + (-20px * 4)));
+			}
+		}
+	}
+
+	&__wrapper-item {
+		border: 1px solid #C4C4C4;
+	}
+}
+
+.sponsor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 150px;
+	height: 80px;
+
+	&__img {
+		width: 70%;
+	}
+}

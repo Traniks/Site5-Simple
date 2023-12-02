@@ -1,0 +1,91 @@
+@media (min-width: 576px) {
+    .sketchbook {
+        &__wrapper {
+            justify-content: center;
+        }
+
+        &__content-title {
+            margin: 10px 0 0 0;
+        }
+
+        &__pfoto-item {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .sketchbook {
+        &__wrapper {
+            grid-template-columns: repeat(2, 330px);
+            grid-template-rows: repeat(1, 270px);
+            justify-content: space-between;
+            column-gap: 30px;
+        }
+
+        &__content-title {
+            margin: 0 0 0 0;
+        }
+
+
+        &__pfoto {
+            position: relative;
+            grid-column: 2/3;
+
+            left: 2vw;
+
+            &-img {
+                width: unset;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 900px) {
+    .sketchbook {
+        &__wrapper {
+            grid-template-columns: auto 330px;
+        }
+
+        &__content {
+            padding: 0 0 0 6vw;
+        }
+
+        &__content-subtitle {
+            max-width: 500px;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .sketchbook {
+        padding: 114px 0;
+
+        &__wrapper {
+            grid-template-columns: auto 730px;
+        }
+
+        &__content {
+            padding: 0 0 0 0;
+        }
+
+        &__content-title {
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        &__content-subtitle {
+            margin: 8px 0 0 0;
+        }
+
+        &__pfoto {
+            position: relative;
+            max-width: 730px;
+            grid-column: 2/3;
+            left: 0;
+            top: -24px;
+        }
+
+    }
+}

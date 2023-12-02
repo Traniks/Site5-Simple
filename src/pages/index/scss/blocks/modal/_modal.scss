@@ -1,0 +1,44 @@
+.modal {
+	position: fixed;
+
+	width: 100vw;
+	height: 100vh;
+
+	flex-direction: column;
+	justify-content: start;
+
+	top: 0;
+	left: -105%;
+
+	overflow: hidden;
+	z-index: var(--index-modal);
+	background-color: var(--bg-main_second);
+	transition: 0.6s all;
+
+	&_active {
+		left: 0;
+	}
+}
+
+.hamburger {
+	&__logo {
+		display: flex;
+
+		height: 44px;
+
+		justify-content: center;
+		align-items: center;
+
+		background-color: var(--bg-main);
+
+		img {}
+	}
+
+	&-menu {
+		&__cross {
+			margin: 15px 0 22px 0;
+		}
+
+		&__navbar {}
+	}
+}

@@ -1,0 +1,81 @@
+.btn {
+    display: flex;
+
+    width: 144px;
+    height: 50px;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid var(--btnBorder-default);
+    background: var(--btnColor-default_bg);
+    color: var(--btnColor-default_text);
+    transition: 0.4s;
+
+    &:hover {
+        border: 1px solid var(--btnBorder-hover);
+        background: var(--btnColor-hover_bg);
+        color: var(--btnColor-hover_text);
+    }
+
+    &:focus {
+        border: 1px solid var(--btnBorder-focus);
+        background: var(--btnColor-focus_bg);
+        color: var(--btnColor-focus_text);
+        outline: none;
+    }
+
+    &:active {
+        border: 1px solid var(--btnBorder-active);
+        background: var(--btnColor-active_bg);
+        color: var(--btnColor-active_text);
+    }
+}
+
+@media (min-width: 576px) {
+    .btn {
+        width: 196px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: 255px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .btn {
+        width: 255px;
+        height: 70px;
+    }
+}
+
+.link {
+    font-size: 20px;
+    font-weight: 400;
+
+    text-decoration: none;
+    color: var(--link-default);
+    background: var(--link-default_bg);
+    transition: 0.4s;
+
+    &:hover {
+        color: var(--link-hover);
+        background: var(--link-hover_bg);
+    }
+
+    &:focus {
+        color: var(--link-focus);
+        background: var(--link-focus_bg);
+        box-shadow: 0 0 0 5px var(--link-focus_bg);
+        outline: none;
+    }
+
+    &:active {
+        color: var(--link-active);
+        background: var(--link-active_bg);
+    }
+}
